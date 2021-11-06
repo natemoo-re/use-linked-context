@@ -1,0 +1,23 @@
+{
+  "name": "use-linked-context",
+  "author": {
+    "name": "Nate Moore",
+    "email": "nate@natemoo.re",
+    "url": "https://twitter.com/n_moore"
+  },
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./preact": "./preact.js",
+    "./react": "./react.js"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "preact": "^10.5.15",
+    "react": "^17.0.2"
+  },
+  "optionalDependencies": {
+    "react": "^17.0.2",
+    "preact": "^10.5.15"
+  }
+}
